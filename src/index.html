@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="A front-end boilerplate using Gulp, Sass and BrowserSync.">
+
+    <!-- Facebook OG -->
+    <meta property="og:title" content="Gulp Sass Boilerplate">
+    <meta property="og:site_name" content="buz">
+    <meta property="og:url" content="https://gabrielhenrique.net">
+    <meta property="og:description" content="A front-end boilerplate using Gulp, Sass and BrowserSync.">
+    <meta property="og:image" content="">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:image:height" content="1080">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gulp Sass Boilerplate">
+    <meta name="twitter:domain" content="buz">
+    <meta name="twitter:url" content="https://gabrielhenrique.net">
+    <meta name="twitter:description" content="A front-end boilerplate using Gulp, Sass and BrowserSync.">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:image:width" content="1920">
+    <meta name="twitter:image:height" content="1080">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#181818">
+    <title>New Site</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Stylesheets - Bower components will be automatically injected -->
+    <!-- Swicth reset-css and normalize-css from devDependencies to dependencies (in bower.json) if your prefer a reset + fire gulp wiredep task after -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/bower_components/animate.css/animate.css">
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<body>
+    <!--[if lt IE 10]> 
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a target="_blank" href="http://outdatedbrowser.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <h1>Conteudo aq</h1>
+
+    <!-- External javascript files (e.g. jQuery) - automatically injected -->
+    <!-- build:js js/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- bower:js -->
+    <!-- bower installed scripts will go here... -->
+    <!-- endinject -->
+    <!-- inject:js -->
+    <!-- app scripts will go here... -->
+    <!-- endinject -->
+    
+    <!-- Main javascript file(s) -->
+    <!-- build:js js/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google analytics, replace XX-XXXXXXXX-X -->		
+    <script>		
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){		
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),		
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)		
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');		
+		
+        ga('create', 'XX-XXXXXXXX-X', 'auto');		
+        ga('send', 'pageview');		
+    </script>
+</body>
+</html>

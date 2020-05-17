@@ -1,0 +1,50 @@
+/* _HEADER.SCSS
+ * --------------------------------------------------
+ *  Header styles should be declared here
+ * -------------------------------------------------- */
+ 
+header {
+    background-color: $main-color;
+    background: url('') no-repeat center center;
+    background-size: cover;
+
+    h1 {
+        color: $white;
+    }
+    
+    p {
+        color: $white;
+        margin-bottom: 8px;
+    }
+
+    i {
+        color: $secondary-color;
+        margin-left: 4px;
+    }
+}
+
+// .header__border {
+//     height: 16px;
+
+//     @include bp-normal {
+//         height: 24px;
+//     }
+// }
+
+// .clicks {
+//     display: none;
+//     margin-bottom: 0;
+//     @include fontsize(16px);
+//     color: darken($secondary-color, 32%);
+//     background-color: lighten($secondary-color, 24%); 
+//     padding: 8px 12px;
+//     border-radius: 16px;
+
+//     @include bp-medium {
+//         transform: translateY(-8px);
+
+//         &.is--active {
+//             display: inline-block;
+//         }
+//     }
+// }

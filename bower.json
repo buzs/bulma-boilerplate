@@ -1,0 +1,32 @@
+{
+  "name": "master-lpage",
+  "description": "",
+  "main": "index.js",
+  "license": "UNLICENSE",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.8.2",
+    "normalize-css": "^8.0.0",
+    "animate.css": "^4.1.0"
+  },
+  "overrides": {
+    "bulma": {
+      "main": [
+        "bulma.sass"
+      ]
+    },
+    "normalize-css": {
+      "main": [
+        "normalize.css"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@import "bower_components/font-awesome/scss/fontawesome.scss";
+// @import "bower_components/font-awesome/scss/regular.scss";
+// @import "bower_components/font-awesome/scss/solid.scss";
+// @import "bower_components/font-awesome/scss/brands.scss";# Allow crawling of all content
+User-agent: *
+Disallow:
